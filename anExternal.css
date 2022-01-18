@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(253, 227, 232);
+}
+
+.p1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.dotted {
+    border-style: dotted;
+    padding: 5px;
+}
+
+.p3 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.imgyellow {
+    float: left;
+}
